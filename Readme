@@ -2,3 +2,6 @@ for docker base image, see: https://github.com/hkurosawa/gpu-enabled-jupyterlab-
 
 make IMAGE -- when initial use or rebuilding image only
 make RUN-WEBUI
+
+note:
+UI上の"Open Images Output Directory"はコンテナ上のパスを開こうとしてしまうため機能しない

@@ -1,6 +1,6 @@
 IMAGE_NAME = stable-diffusion-webui
 
-IMAGE: stable-diffusion-webui
+IMAGE: stable-diffusion-webui/venv
 	docker build --no-cache -t $(IMAGE_NAME):latest .
 
 stable-diffusion-webui:
